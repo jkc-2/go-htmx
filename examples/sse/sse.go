@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/jkc-2/go-htmx"
-	"github.com/jkc-2o-htmx/sse"
+	"github.com/jkc-2/go-htmx/sse"
 )
 
 type (

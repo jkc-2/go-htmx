@@ -5,11 +5,12 @@ package htmx
 
 import (
 	"errors"
-	"github.com/donseba/go-htmx/sse"
 	"log/slog"
 	"net/http"
 	"strings"
 	"time"
+
+	"github.com/jkc-2/go-htmx/sse"
 )
 
 var (

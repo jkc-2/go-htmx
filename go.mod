@@ -1,3 +1,3 @@
 module github.com/jkc-2/go-htmx
 
-go 1.22
+go 1.23

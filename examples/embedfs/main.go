@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/donseba/go-htmx"
+	"github.com/jkc-2/go-htmx"
 )
 
 //go:embed home.html

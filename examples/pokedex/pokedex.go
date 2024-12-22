@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/donseba/go-htmx"
+	"github.com/jkc-2/go-htmx"
 )
 
 type (
