@@ -1,7 +1,7 @@
-module github.com/donseba/go-htmx/examples/embedfs
+module github.com/jkc-2/go-htmx/examples/embedfs
 
 go 1.22
 
-require github.com/donseba/go-htmx v1.11.3
+require github.com/jkc-2/go-htmx v1.11.3
 
-replace github.com/donseba/go-htmx => ./../../
+replace github.com/jkc-2/go-htmx => ./../../

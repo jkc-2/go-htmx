@@ -11,7 +11,7 @@ go install golang.org/x/tools/cmd/gonew@latest
   - Second argument passed to `gonew` is a module path of your new app.
 
 ```console
-gonew github.com/donseba/go-htmx/examples/tiktaktoe your.module/my-app # e.g. github.com/donseba/my-app
+gonew github.com/jkc-2/go-htmx/examples/tiktaktoe your.module/my-app # e.g. github.com/jkc-2/my-app
 cd my-app
 go mod tidy
 go build

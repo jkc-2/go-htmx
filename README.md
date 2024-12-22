@@ -1,12 +1,12 @@
 # go-htmx
 **Seamless HTMX integration in golang applications.**
 
-[![GoDoc](https://pkg.go.dev/badge/github.com/donseba/go-htmx?status.svg)](https://pkg.go.dev/github.com/donseba/go-htmx?tab=doc)
-[![GoMod](https://img.shields.io/github/go-mod/go-version/donseba/go-htmx)](https://github.com/donseba/go-htmx)
-[![Size](https://img.shields.io/github/languages/code-size/donseba/go-htmx)](https://github.com/donseba/go-htmx)
-[![License](https://img.shields.io/github/license/donseba/go-htmx)](./LICENSE)
-[![Stars](https://img.shields.io/github/stars/donseba/go-htmx)](https://github.com/donseba/go-htmx/stargazers)
-[![Go Report Card](https://goreportcard.com/badge/github.com/donseba/go-htmx)](https://goreportcard.com/report/github.com/donseba/go-htmx)
+[![GoDoc](https://pkg.go.dev/badge/github.com/jkc-2/go-htmx?status.svg)](https://pkg.go.dev/github.com/jkc-2/go-htmx?tab=doc)
+[![GoMod](https://img.shields.io/github/go-mod/go-version/jkc-2/go-htmx)](https://github.com/jkc-2/go-htmx)
+[![Size](https://img.shields.io/github/languages/code-size/jkc-2/go-htmx)](https://github.com/jkc-2/go-htmx)
+[![License](https://img.shields.io/github/license/jkc-2/go-htmx)](./LICENSE)
+[![Stars](https://img.shields.io/github/stars/jkc-2/go-htmx)](https://github.com/jkc-2/go-htmx/stargazers)
+[![Go Report Card](https://goreportcard.com/badge/github.com/jkc-2/go-htmx)](https://goreportcard.com/report/github.com/jkc-2/go-htmx)
 
 ## Description
 
@@ -17,8 +17,8 @@ It provides a set of tools to easily manage swap behaviors, trigger configuratio
 This package is built around the specific need to be able to work with HTMX in a Go environment.
 All functionality found in this repository has a certain use case in various projects that I have worked on.
 
-- Design decisions are documented in the [DESIGN_DECISIONS.md](https://github.com/donseba/go-htmx/blob/main/DESIGN_DECISIONS.md) file.
-- Locality of Behavior is documented in the [LOB.md](https://github.com/donseba/go-htmx/blob/main/LOB.md) file.
+- Design decisions are documented in the [DESIGN_DECISIONS.md](https://github.com/jkc-2/go-htmx/blob/main/DESIGN_DECISIONS.md) file.
+- Locality of Behavior is documented in the [LOB.md](https://github.com/jkc-2/go-htmx/blob/main/LOB.md) file.
 
 ## Features
 
@@ -37,7 +37,7 @@ All functionality found in this repository has a certain use case in various pro
 To install the htmx package, use the following command:
 
 ```sh
-go get -u github.com/donseba/go-htmx
+go get -u github.com/jkc-2/go-htmx
 ```
 
 ### Usage
@@ -50,7 +50,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/donseba/go-htmx"
+	"github.com/jkc-2/go-htmx"
 )
 
 type App struct {
@@ -297,7 +297,7 @@ htmx.DefaultNotificationKey = "myCustomEventName"
 
 ## Component Rendering
 
-The components documentation can be found in the [COMPONENTS.md](https://github.com/donseba/go-htmx/blob/main/COMPONENTS.md) file.
+The components documentation can be found in the [COMPONENTS.md](https://github.com/jkc-2/go-htmx/blob/main/COMPONENTS.md) file.
 
 ---
 

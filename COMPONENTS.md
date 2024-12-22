@@ -38,13 +38,13 @@ The `go-htmx` package simplifies the process of rendering HTML templates in Go b
 To use the `go-htmx` package, you need to import it into your Go project:
 
 ```go
-import "github.com/donseba/go-htmx"
+import "github.com/jkc-2/go-htmx"
 ```
 
 Ensure you have the package installed:
 
 ```bash
-go get github.com/donseba/go-htmx
+go get github.com/jkc-2/go-htmx
 ```
 
 ---
@@ -209,7 +209,7 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/donseba/go-htmx"
+	"github.com/jkc-2/go-htmx"
 	"net/http"
 )
 

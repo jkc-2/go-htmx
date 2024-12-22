@@ -1,5 +1,5 @@
-module github.com/donseba/go-htmx/examples/tiktaktoe
+module github.com/jkc-2/go-htmx/examples/tiktaktoe
 
 go 1.23
 
-require github.com/donseba/go-htmx v1.9.0
+require github.com/jkc-2/go-htmx v1.9.0
