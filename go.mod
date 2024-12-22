@@ -1,3 +1,3 @@
-module github.com/donseba/go-htmx
+module github.com/jkc-2/go-htmx
 
 go 1.22
