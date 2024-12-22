@@ -2,14 +2,15 @@ package main
 
 import (
 	"context"
-	"github.com/donseba/go-htmx"
-	"github.com/donseba/go-htmx/sse"
 	"log"
 	"math/rand"
 	"net/http"
 	"regexp"
 	"sync"
 	"time"
+
+	"github.com/jkc-2/go-htmx"
+	"github.com/jkc-2o-htmx/sse"
 )
 
 type (

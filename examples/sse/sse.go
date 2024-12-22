@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/donseba/go-htmx"
-	"github.com/donseba/go-htmx/sse"
+	"github.com/jkc-2/go-htmx"
+	"github.com/jkc-2o-htmx/sse"
 )
 
 type (
